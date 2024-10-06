@@ -74,13 +74,8 @@ Company is thinking of launching a new campaign in upcoming months. Please autom
 1. Create Functions for the following:
 Get the total discount, if any. 
 Get the days/month/year elapsed since the last purchase of a customer depending on input from user. [Hint: Use If condition within the function]
-2. Create Views (using above functions) for the following:
-a. Identify the top 10 customers along with their demographic details from each sector based on their total discount.
-b. Identify the top 5 customers (from household and industrial sector) based on purchase amount and days elapsed in descending order. Do highlight if you think there is a data error.
-c. Identify the top 10 products that are sold last year based on sales amount along with the last 2 year details of the same. 
-d. Create 3 different income groups for household sector people - ‘high class’, ‘low class’, ‘middle class’ - based on their percent rank (33% each) and identify the top 2 products that are bought within these income class.
 
-3. Create Stored Procedures for following data validation tasks:
+2. Create Stored Procedures for following data validation tasks:
 Identify whether a particular transaction amount (purchase amount) is ‘correct’ or ‘not correct’. 
 It is correct if price and quantity are used to calculate without a coupon. In case of a coupon, the coupon amount should be deducted from the original amount given the original amount is greater than equal to min purchase for a coupon; else you can simply calculate original amount based on quantity. 
 [Input will be transaction id] [Note: Look out for null coupon ids]
